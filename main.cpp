@@ -5,20 +5,10 @@ using namespace std;
 
 int main()
 {
-
-double nr = 137.0625;
-
-stack<int> S1 = convZtoBI( nr );
-while (!S1.empty())
-{
-    cout << S1.top();
-    S1.pop();
-}
-
-cout << " ";
-
- for( auto a : convZtoBS(nr) )
- cout << a;
+int baza;
+double nr;
+AlegereOperatii( baza , nr);
+afisareVectoriPlusStive( convZtoBOHI(nr , baza ) , convZtoBOHS(nr , baza)  );
 
 
 return 0;
