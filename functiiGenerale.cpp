@@ -38,7 +38,7 @@ while( !Stiva.empty() )
         cout << Stiva.top() << " ";
         Stiva.pop();
     }
-
+    if( !Vector.empty())
     cout << ", ";
 
 for( auto a : Vector )
